@@ -1,0 +1,10 @@
+function calculateArea(length, width) {
+  // Calculate the area by multiplying length and width
+  const area = length * width;
+  return area;
+}
+const length = 5;
+const width = 10;
+
+const area = calculateArea(length, width);
+console.log(area); // Output will be 50 (5 * 10)
